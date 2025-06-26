@@ -1,1 +1,15 @@
+App(
+    appid="cc1101_subghz",
+    name="CC1101 SubGHz",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="cc1101_subghz_app",
+    requires=["gui", "subghz"],
+    stack_size=4 * 1024,
+    order=20,
+    fap_icon="cc1101_icon.png",
+    fap_category="Sub-GHz",
+    fap_version="1.0",
+    fap_author="FlipperZero Community",
+    fap_description="CC1101 External SubGHz Scanner and Transmitter",
+)
 
