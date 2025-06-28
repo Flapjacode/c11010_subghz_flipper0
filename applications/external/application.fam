@@ -1,0 +1,5 @@
+App(
+    appid="external_apps",
+    name="External Applications",
+    apptype=FlipperAppType.METAPACKAGE,
+)

@@ -1,0 +1,7 @@
+ADD_SCENE(cc1101_subghz, start, Start)
+ADD_SCENE(cc1101_subghz, static_scan, StaticScan)
+ADD_SCENE(cc1101_subghz, hopper_scan, HopperScan)
+ADD_SCENE(cc1101_subghz, frequency_input, FrequencyInput)
+ADD_SCENE(cc1101_subghz, transmit, Transmit)
+ADD_SCENE(cc1101_subghz, settings, Settings)
+ADD_SCENE(cc1101_subghz, saved_signals, SavedSignals)
